@@ -1,0 +1,2 @@
+# transit_time_primary	sys_period	duration_primary	transit_time_secondary	duration_secondary
+2525.48981		8.2184724	0.2458			2777.408		0.4
