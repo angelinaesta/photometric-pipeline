@@ -4,4 +4,10 @@ To facilitate my research, I built a Python tool that cleanly automates end-to-e
 To open and properly run this pipeline:
 
 1) Ensure the following packages are installed or can be imported when running the tool: NumPy, MatPlotLib, PyPlot, LightKurve, ipympl, Pandas, AstroPy, AstroPy Units.
-2) (also described when running the tool) In the same directory as where this code is running, make a text file titled pipeline_inputs.txt that contains the transit time of the primary star (in +24570000 BTJD), system period (in days), primary eclipse duration (in hours), transit time of the secondary star (in +24570000 BTJD), and secondary eclipse duration (in hours). For an example of how to format it properly, please see the sample pipeline_inputs.txt file in this repo.
+2) (also described when running the tool) In the same directory as where this code is running, make a text file titled pipeline_inputs.txt that contains the items listed below. For an example of how to format it properly, please see the pipeline_inputs_sample.txt file in this repo -- HOWEVER, if you would like to demo the software with the sample text file then please change its name to pipeline_inputs.txt so the tool can read it in. Items to include when making your own text file:
+   - the transit time of the primary star (in +24570000 BTJD),
+   - system period (in days),
+   - primary eclipse duration (in hours),
+   - transit time of the secondary star (in +24570000 BTJD),
+   - and secondary eclipse duration (in hours).
+3) mm
