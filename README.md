@@ -29,4 +29,4 @@ Outputs (all lightcurves are clean, high-quality graphs):
 2)  When asked which object's lightcurves you would like analyzed, enter TIC 288878839
 3)  Next, when choosing a number from the leftmost column, enter 1
 4)  When asked for SAP or PDC flux, enter S
-5)  
+5)  When asked about adding a model line from a text file, enter 
