@@ -15,7 +15,7 @@ Outputs (all lightcurves are clean, high-quality graphs):
 # To open and properly run this pipeline:
 
 1) Ensure the following packages are installed or can be imported when running the tool: NumPy, MatPlotLib, PyPlot, LightKurve, ipympl, Pandas, AstroPy, AstroPy Units.
-2) (also described when running the tool) In the same directory as where this code is running, make a text file titled pipeline_inputs.txt that contains the items listed below. For an example of how to format it properly, please see the pipeline_inputs_sample.txt file in this repo. Items to include when making your own text file:
+2) (also described when running the tool) In the same directory as where this code is running, make a text file titled pipeline_inputs.txt that contains the items listed below. *For an example of how to format it properly, please see the pipeline_inputs_sample.txt file in this repo.* Items to include when making your own text file:
    - transit time of the primary star (in +24570000 BTJD),
    - system period (in days),
    - primary eclipse duration (in hours),
@@ -23,7 +23,7 @@ Outputs (all lightcurves are clean, high-quality graphs):
    - and secondary eclipse duration (in hours).
 3) m
 
-# To demo the software with the sample text file and confirmed information:
+# To demo the software with the sample text file:
 
 1)  Change the name of the sample file to pipeline_inputs.txt so the tool can read it in.
 2)  When asked which object's lightcurves you would like analyzed, enter TIC 288878839
